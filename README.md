@@ -4,7 +4,9 @@ The codes are largely organized based on programming languages. The main workflo
 
 ### Construction and evaluation of the haplotype reference panel
 
-#### 1. 
+#### 1. prepare sequence files
+
+Code in (bash/prepSeq.bash)
 
 
 ### SWIM server
