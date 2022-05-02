@@ -6,8 +6,28 @@ The codes are largely organized based on programming languages. The main workflo
 
 #### 1. prepare sequence files
 
-Code in (bash/prepSeq.bash)
+codes in (bash/prepSeq.bash), which includes downloading and processing SRA sequences to conform to formats (directory structures, file names) that are compatible with downstream steps.
 
+#### 2. mapping, post-mapping processing, and call variants in GVCF
+
+codes in (bash/gvcfs.bash) which calls (bash/fq2gvcf.bash).
+
+#### 3. combine GVCFs and genotype GVCFs
+
+codes in (bash/combineGenotype.bash) and (bash/genotype.bash), including variant quality recalibration.
+
+#### 4. QC, filtering
+
+codes in (bash/QC.bash).
+
+#### 5. evaluation of imputation software combinations, reference panel composition
+
+codes in (bash/acc_ind550_imputation.bash)
 
 ### SWIM server
 
+codes in the directory (server/)
+
+### Figures
+
+codes in the directory (figureCode/) and data needed to generate the figures in (figureData/)
